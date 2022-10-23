@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Atcoder
+tests/
+
+# poetry
+poetry.lock
+pyproject.toml
+
+# npm package
+package-lock.json
+package.json
+node_modules/
+
 # Distribution / packaging
 .Python
 build/
