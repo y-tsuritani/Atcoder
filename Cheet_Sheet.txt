@@ -1,0 +1,6 @@
+[acc]
+acc new ABC<id> 
+acc submit
+
+[oj]
+oj test
