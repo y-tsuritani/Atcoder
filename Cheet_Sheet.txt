@@ -1,0 +1,6 @@
+[acc]
+acc new ABC<id> 
+acc submit
+
+[oj]
+oj t -c "python main.py"
