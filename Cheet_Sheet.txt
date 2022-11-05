@@ -3,4 +3,4 @@ acc new ABC<id>
 acc submit
 
 [oj]
-oj test
+oj t -c "python main.py"
