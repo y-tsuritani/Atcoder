@@ -3,11 +3,11 @@ def main() -> int:
     output:
 
     """
-    h, w = map(int, input().split())
+    n, m = map(int, input().split())
     result = 0
-    for _ in range(h):
+    for _ in range(n):
         s = input()
-    
+
     return result
 
 if __name__ == '__main__':
