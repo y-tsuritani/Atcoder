@@ -3,11 +3,13 @@ import sys
 input = sys.stdin.readline
 
 
-def DFS(target_vertex: int) -> None:
+def DFS(graph: list, visit: list, target_vertex: int) -> None:
     """深さ優先探索
 
     Args:
-        target_vertex (int): _description_
+        graph (list): 探索する無向グラフ
+        visit (list): 各頂点の訪問済みフラグリスト
+        target_vertex (int): ターゲットとなる頂点
     """
     visit[target_vertex] = True
     # ターゲットになる頂点の各ノードに対して未訪問か確認し、DFS を繰り返す
@@ -36,5 +38,5 @@ for target_vertex in range(1, vertex_num + 1):
     if visit[target_vertex]:
         continue
     Ans += 1
-    DFS(target_vertex)
+    DFS(graph, visit, target_vertex)
 print(Ans)
